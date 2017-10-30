@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	
+	<div class="weather">
+		<div>
+		<p class="location"></p>
+		<p class="locationDate"></p>
+		</div>
+		<div><canvas id="weather-icon" width="200" height="200"></canvas></div>
+		<div class="message"></div>
+		<div class="wind">
+			<img src="images/wind.png" class="windIcon" alt="">
+			<p class="windspeed"></p>
+		</div>
+		<section class="summary">
+		<div class="summary__weather">
+		<h1 class="weather-summary"></h1>
+		<div class="temperatures">
+		<h2 class="temperature"></h2><div class="temperaturesMinMax">
+		<h3 class="temperatureMin"></h3>
+		<h3 class="temperatureMax"></h3>
+		</div></div></div>
+		
+		<section class="sunsetRS">
+		<div>
+		<img src="images/sunrise.png" class="sunriseIcon" alt="">
+		<h4 class="sunrise"></h4>
+		</div>
+		
+		<div>
+		<img src="images/sunset.png" class="sunsetIcon" alt="">
+		<h4 class="sunset"></h4>
+		</div>
+		</section>
+		
+		</section>
+		
+		<section class="predictions">
+		<ul>
+			<li class="prediction1"><p class="temp1"></p><canvas class="canvasPred" id="icon1"></canvas><p class="hour1"></p></li>
+			<li class="prediction2"><p class="temp2"></p><canvas class="canvasPred" id="icon2"></canvas><p class="hour2"></p></li>
+			<li class="prediction3"><p class="temp3"></p><canvas class="canvasPred" id="icon3"></canvas><p class="hour3"></p></li>
+		</ul>
+	</section>
+		
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<script src="js/skycons.js"></script>
+	<script src="js/start.js"></script>
+
+</body>
+</html>

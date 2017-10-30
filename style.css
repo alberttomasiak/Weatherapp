@@ -1,0 +1,179 @@
+.weather{
+	width: 400px;
+	height: 100%;
+ 	display: flex;
+ 	flex-direction: column;
+ 	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: helvetica;
+	z-index: 1;
+	/*background-image: url(images/background.jpg);*/
+	background-size: cover;
+}
+
+#weather-icon{
+	width: 40%;
+}
+
+.summary{
+	background-color: #eee;
+	color: black;
+	margin-top: -40px;
+}
+
+.message{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wind{
+	display: block;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.location{
+	height: 20px;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+	margin-top: 10px;
+	padding-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.temperatures{
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+.temperaturesMinMax{
+	display: flex;
+	flex-direction: column;
+}
+
+.temperatureMin{
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 30px;
+	padding-top: 0;
+}
+
+.temperatureMax{
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.weather-summary{
+	font-size: 2.3em;
+	margin-bottom: 5px;
+	padding-bottom: 0;
+	margin-top: 10px;
+	padding-top: 0;
+}
+
+.wind{
+	width: 35%;
+	text-align: right;
+	margin-left: auto;
+	z-index: 999;
+	height: 100px;
+	position: relative;
+	display: block;
+	margin-top: 30px;
+}
+
+.wind p{
+	margin-top: 13px;
+	font-size: 1.2em;
+}
+
+.windIcon{
+	width: 70px;
+	float: left;
+}
+
+.temperature{
+	font-size: 6em;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.sunsetRS{
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sunsetRS h4{
+	margin-top: 15px;
+}
+
+.sunsetRS div{
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.canvasPred{
+	margin-left: 0px;
+	opacity: 1;
+	visibility: visible;
+}
+
+
+.predictions{
+	text-align: center;
+}
+
+.predictions ul{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: -10px;
+	padding-top: ;
+}
+
+.predictions ul canvas{
+	width: 50%;
+}
+
+.predictions li{
+	margin-top:20px;
+	width: 50%;
+}
+
+.sunriseIcon{
+	width: 70px;
+	height: 40px;
+}
+
+.sunsetIcon{
+	width: 70px;
+	height: 40px;
+}
